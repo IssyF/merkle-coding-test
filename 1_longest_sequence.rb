@@ -1,6 +1,6 @@
 def longest_sequence(sequence)
   index = 0
-  longest_count = { sequence[index] => 1}
+  longest_count = { sequence[index] => 1 }
   letter_count = 1
   while index < sequence.length - 1
     index += 1
