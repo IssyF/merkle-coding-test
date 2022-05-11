@@ -18,9 +18,7 @@ class Time
       @minutes = @minutes % 60
     end
     # If hours are greater than 23, scale down
-    if @hours > 23
-      @hours = @hours % 24
-    end
+    @hours = @hours % 24 if @hours > 23
   end
 
   def scale(seconds)
