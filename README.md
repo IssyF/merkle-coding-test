@@ -7,5 +7,4 @@ I have chosen to complete the test in Ruby (version ruby 2.7.4).
 
 ** Considerations**:
 - Parameter and method/function names use Ruby naming convention (lower_snake_case), rather than lowerCamelCase as in the instructions.
-- 1. Longest Sequence
-As object literals do not exist in Ruby, I have returned a Ruby hash instead.
+- Longest Sequence: as object literals do not exist in Ruby, I have returned a Ruby hash instead.
